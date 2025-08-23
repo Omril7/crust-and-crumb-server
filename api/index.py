@@ -5,7 +5,7 @@ from api.consts import ERROR_REDIRECT_HTML
 from db.db_client import DBClient
 
 app = Flask(__name__)
-origins = ["http://localhost:3000", "https://crust-and-crumb.vercel.app/", "https://omri-site.vercel.app/"]
+origins = ["http://localhost:3000", "https://crust-and-crumb.vercel.app", "https://omri-site.vercel.app"]
 CORS(app, origins=origins)
 
 db = DBClient()
