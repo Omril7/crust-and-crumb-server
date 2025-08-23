@@ -79,6 +79,3 @@ def delete_salary(salary_id):
 def create_salaries_bulk():
     ids = db.create_salaries_bulk(request.json)
     return jsonify({'message': 'Salaries created', 'ids': ids}), 201
-
-
-app.run()
