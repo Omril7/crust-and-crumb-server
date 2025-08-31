@@ -86,7 +86,8 @@ class DBClient:
                     'netoInAction': s.netoInAction,
                     'paycheckDate': str(s.paycheckDate),
                     'vacationDays': s.vacationDays,
-                    'sicknessDays': s.sicknessDays
+                    'sicknessDays': s.sicknessDays,
+                    'salaryPdfUrl': s.salaryPdfUrl
                 } for s in salaries
             ]
 
