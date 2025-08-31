@@ -44,5 +44,4 @@ class Salary(Base):
     paycheckDate = Column(Date)
     vacationDays = Column(Float)
     sicknessDays = Column(Float)
-
-    pdf_url = Column(String)
+    salaryPdfUrl = Column(String)
